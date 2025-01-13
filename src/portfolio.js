@@ -42,7 +42,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/prabinkarki643",
-  linkedin: "https://www.linkedin.com/in/prabin-karki-936546159/",
+  linkedin: "https://www.linkedin.com/in/er-prabin-karki-936546159/",
   gmail: "prabinkarki643@gmail.com",
   facebook: "https://www.facebook.com/pravin.karki.98",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -155,16 +155,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -246,29 +246,43 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/dealnepal_logo.png"),
-      projectName: "Deal Nepal",
-      projectDesc: `Deal Nepal's aim is to empower every person in the country to
-      independently connect with buyers and sellers online.Want to buy your
-      first car? Deal Nepal is here for you.`,
-      role: "Founder & Developer",
+      image: require("./assets/images/hamro_blood_bank_logo.png"),
+      projectName: "Hamro Blood bank",
+      projectDesc: `Hamro Blood Bank aimed to efficiently connect blood donors and recipients by addressing challenges in traditional systems.`,
+      role: "Team Lead | Backend Developer",
       footerLink: [
         {
           name: "View Live Now",
-          url: "https://play.google.com/store/apps/details?id=com.dealnepal"
+          url: "https://www.hamrobloodbank.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/smartsala.png"),
-      projectName: "Smart Sala",
-      projectDesc: `Smartshaalaa helps all retailers in managing (inventory management, invoicing, billing, storing them in the cloud for free) and helps to grow their business faster.`,
-      role: "Founder & Developer",
+      image: require("./assets/images/chfn-logo.png"),
+      projectName: "Compassionate Hands For Nepal",
+      projectDesc: `The CHF Nepal website aimed to showcase the organization’s
+extensive eforts across 16 districts.`,
+      role: "Full-end Developer",
       footerLink: [
         {
           name: "View Live Now",
-          url: "https://play.google.com/store/apps/details?id=com.smartshaalaa.milan.eshop&hl=en_IN"
+          url: "https://www.chfnepal.org"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/seema-logo.png"),
+      projectName: "Seema Portal",
+      projectDesc: `The project aimed to streamline border and immigration management
+by creating a centralized platform to handle administrative tasks,
+improve data accuracy, and enhance operational e
+ciency`,
+      role: "Full-end Developer",
+      footerLink: [
+        {
+          name: "View Live Now",
+          url: "https://seema.moha.gov.np"
         }
       ]
     },
